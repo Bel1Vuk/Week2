@@ -1,0 +1,127 @@
+:root{
+    font-size: 20px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    background-color: rgb(53, 163, 173);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.card{
+    width: 380px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    background: white;
+    position: relative;
+
+}
+
+.header{
+    background-image: url(bg-pattern-card.svg);
+    background-size: cover;
+    height: 150px;
+}
+
+.body{
+    padding: 0 20px 25px;
+}
+
+.image{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: -55px auto 30px auto;
+
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+.age,
+.city,
+.data  {
+    color: black;
+    opacity: .5;
+    font-weight: 400;
+}
+
+
+.name {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+
+}
+
+.city {
+    font-size: .9rem;
+}
+
+.age{
+    margin-left:6px ;
+}
+
+.footer{
+    border-top:1px solid hsl(0,0%,77%);
+    display: flex;
+    padding: 0 25px;
+
+}
+.footer .item{
+
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .item .value{
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+.footer .item .data{
+    font-size: .6rem;
+    letter-spacing: 2px;
+}
+
+.circles .c1,
+.circles .c2{
+    position: absolute;
+
+}
+
+.circles .c1{
+    top:-600px;
+    left:-430px;
+
+}
+.circles .c2{
+    right:-430px;
+    bottom:-600px;
+
+}
+
